@@ -4,6 +4,11 @@ import spotifyApi, { LOGIN_URL } from '../../../lib/spotify';
 
 async function refreshAccessToken(token) {
   try {
+    console.log(
+      '🚀 ~ file: [...nextauth].js ~ line 8 ~ refreshAccessToken ~ token: ',
+      token
+    );
+
     spotifyApi.setAccessToken(token.accessToken);
     spotifyApi.setRefreshToken(token.refreshToken);
 
@@ -30,7 +35,9 @@ async function refreshAccessToken(token) {
 }
 
 export default NextAuth({
-  // Configure one or more auth providesrs
+  //console.log("🚀 ~ file: [...nextauth].js ~ line 39 ~ process.env.NEXT_PUBLIC_CLIENT_ID", process.env.NEXT_PUBLIC_CLIENT_ID)
+
+  //* Configure one or more auth providesrs
   providers: [
     SpotifyProvider({
       clientId: process.env.NEXT_PUBLIC_CLIENT_ID,
@@ -47,6 +54,11 @@ export default NextAuth({
     //* https://next-auth.js.org/tutorials/refresh-token-rotation
     //* Authentication function, we created the JWT token
     async jwt({ token, account, user }) {
+      console.log(
+        '🚀 ~ file: [...nextauth].js ~ line 54 ~ callbacks ~ jwt ~ token: ',
+        token
+      );
+
       //* initial sign in were we get our first token
       if (account && user) {
         return {
@@ -62,7 +74,7 @@ export default NextAuth({
       //* Return previous token if the access token has not expired yet
       if (Date.now() < token.accessTokenExpiress) {
         console.log(
-          '🚀 EXISTING ACCESS TOKEN IS VALID ~ file: [...nextauth].js ~ line 35 ~ jwt ~ token.accessTokenExpiress',
+          '🚀 EXISTING ACCESS TOKEN IS VALID ~ file: [...nextauth].js ~ line 71 ~ callbacks ~ jwt ~ token.accessTokenExpiress: ',
           token.accessTokenExpiress
         );
 
@@ -70,7 +82,7 @@ export default NextAuth({
       }
 
       //* Access token has expired, so we need to refresh it.
-      console.log('🚀 ACCES TOKEN HAS EXPIRED, REFRESHING...');
+      console.log('🚀 ACCES TOKEN HAS EXPIRED, REFRESHING... ~ file: [...nextauth].js ~ line 85 ~ callbacks ~ jwt ~ ');
       return await refreshAccessToken(token);
     },
 
