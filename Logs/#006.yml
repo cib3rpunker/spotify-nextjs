@@ -1,0 +1,324 @@
+ Ollerbytes@MSI  N:\PROJECTs\spotify_nextjs  main  npm run dev
+
+> dev
+> next dev
+
+ready - started server on 0.0.0.0:3000, url: http://localhost:3000
+info  - Loaded env from N:\PROJECTs\spotify_nextjs\.env.local
+event - compiled client and server successfully in 675 ms (200 modules)
+warn  - using beta Middleware (not covered by semver) - https://nextjs.org/docs/messages/beta-middleware
+wait  - compiling /_middleware...
+event - compiled client and server successfully in 332 ms (328 modules)
+
+ 2021-12-19 09:45:36
+ 💙 ~ file: _middleware.js ~ line 6 ~ middleware ~ req:  NextRequestHint [Request] {
+  sourcePage: '/_middleware',
+  [Symbol(internal body)]: { bodyInit: null, disturbed: false },
+  [Symbol(internal request)]: {
+    credentials: 'same-origin',
+    headers: BaseHeaders [Headers] { [Symbol(map)]: [Object] },
+    method: 'GET',
+    referrer: 'about:client',
+    redirect: 'follow',
+    url: NextURL {
+      href: '/',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  },
+  [Symbol(internal request)]: {
+    cookieParser: [Function: cookieParser],
+    geo: {},
+    ip: undefined,
+    page: { name: '/' },
+    url: NextURL {
+      href: '/',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  }
+}
+
+ 2021-12-19 09:45:36
+ 💙 ~ file: _middleware.js ~ line 7 ~ middleware ~ token {
+  name: 'Viktor Óolen',
+  email: 'ciberpunk3r@gmail.com',
+  sub: '31nmckml4n6pnag7d6sdwwvurcdu',
+  accessToken: 'BQAhrCMVvU1DofH_2zBt2YHBoGCt8qTxUZI7eHvxcuQk06mIDMJFOPqsQ4OEOrPRNu-UQjJaOUg9sxPzZDfyv7_o8KhDlFIvn7pTUhYSt0kMy2sNCTM3xR_-vM0JjIej59TLQjykezStK7vtIocmF1umHPd2xyv_pBYGkF-9nOfwnO7yVyNpvmrGaYFuJH6cboHkLkO0aDGZmzZrkN1NdyVQavsAnn6CIlAR',
+  refreshToken: 'AQA-EhCymLZYvhUGSrd5J92Sa-HODEox9DUqHK2A6JiqAkMSBKzBXk4kRRuHZm3feOs7kxavxUX2asj-uSGFHJZ8xIzvyh8jJalH3paWgBQaPEezrWxwOdnUvd5LbOrhTA8',
+  username: '31nmckml4n6pnag7d6sdwwvurcdu',
+  accessTokenExpires: 'function now() { [native code] }3600000',
+  iat: 1639928703,
+  exp: 1642520703,
+  jti: '9cdb34bf-d783-490c-ace6-3a4289684f36'
+}
+wait  - compiling / (client and server)...
+event - compiled client and server successfully in 361 ms (572 modules)
+
+ 2021-12-19 09:45:36
+ 🟦 ~ file: Sidebar.js ~ line 22 ~ Sidebar ~ session:   undefined
+
+ 2021-12-19 09:45:36
+ 🟦 ~ file: Sidebar.js ~ line 26 ~ Sidebar ~ status:  loading
+
+
+
+
+
+
+
+
+
+
+
+
+ 2021-12-19 09:46:44
+ 💙 ~ file: _middleware.js ~ line 6 ~ middleware ~ req:  NextRequestHint [Request] {
+  sourcePage: '/_middleware',
+  [Symbol(internal body)]: { bodyInit: null, disturbed: false },
+  [Symbol(internal request)]: {
+    credentials: 'same-origin',
+    headers: BaseHeaders [Headers] { [Symbol(map)]: [Object] },
+    method: 'GET',
+    referrer: 'about:client',
+    redirect: 'follow',
+    url: NextURL {
+      href: '/',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  },
+  [Symbol(internal request)]: {
+    cookieParser: [Function: cookieParser],
+    geo: {},
+    ip: undefined,
+    page: { name: '/' },
+    url: NextURL {
+      href: '/',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  }
+}
+
+ 2021-12-19 09:46:44
+ 💙 ~ file: _middleware.js ~ line 7 ~ middleware ~ token {
+  name: 'Viktor Óolen',
+  email: 'ciberpunk3r@gmail.com',
+  sub: '31nmckml4n6pnag7d6sdwwvurcdu',
+  accessToken: 'BQAhrCMVvU1DofH_2zBt2YHBoGCt8qTxUZI7eHvxcuQk06mIDMJFOPqsQ4OEOrPRNu-UQjJaOUg9sxPzZDfyv7_o8KhDlFIvn7pTUhYSt0kMy2sNCTM3xR_-vM0JjIej59TLQjykezStK7vtIocmF1umHPd2xyv_pBYGkF-9nOfwnO7yVyNpvmrGaYFuJH6cboHkLkO0aDGZmzZrkN1NdyVQavsAnn6CIlAR',
+  refreshToken: 'AQA-EhCymLZYvhUGSrd5J92Sa-HODEox9DUqHK2A6JiqAkMSBKzBXk4kRRuHZm3feOs7kxavxUX2asj-uSGFHJZ8xIzvyh8jJalH3paWgBQaPEezrWxwOdnUvd5LbOrhTA8',
+  username: '31nmckml4n6pnag7d6sdwwvurcdu',
+  accessTokenExpires: 'function now() { [native code] }3600000',
+  iat: 1639928703,
+  exp: 1642520703,
+  jti: '9cdb34bf-d783-490c-ace6-3a4289684f36'
+}
+
+ 2021-12-19 09:45:36
+ 🟦 ~ file: Sidebar.js ~ line 22 ~ Sidebar ~ session:   undefined
+
+ 2021-12-19 09:45:36
+ 🟦 ~ file: Sidebar.js ~ line 26 ~ Sidebar ~ status:  loading
+
+ 2021-12-19 09:46:44
+ 💙 ~ file: _middleware.js ~ line 6 ~ middleware ~ req:  NextRequestHint [Request] {
+  sourcePage: '/_middleware',
+  [Symbol(internal body)]: { bodyInit: null, disturbed: false },
+  [Symbol(internal request)]: {
+    credentials: 'same-origin',
+    headers: BaseHeaders [Headers] { [Symbol(map)]: [Object] },
+    method: 'GET',
+    referrer: 'about:client',
+    redirect: 'follow',
+    url: NextURL {
+      href: '/api/auth/session',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/api/auth/session',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  },
+  [Symbol(internal request)]: {
+    cookieParser: [Function: cookieParser],
+    geo: {},
+    ip: undefined,
+    page: { name: '/api/auth/[...nextauth]', params: [Object] },
+    url: NextURL {
+      href: '/api/auth/session',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/api/auth/session',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  }
+}
+
+ 2021-12-19 09:46:44
+ 💙 ~ file: _middleware.js ~ line 7 ~ middleware ~ token {
+  name: 'Viktor Óolen',
+  email: 'ciberpunk3r@gmail.com',
+  sub: '31nmckml4n6pnag7d6sdwwvurcdu',
+  accessToken: 'BQAhrCMVvU1DofH_2zBt2YHBoGCt8qTxUZI7eHvxcuQk06mIDMJFOPqsQ4OEOrPRNu-UQjJaOUg9sxPzZDfyv7_o8KhDlFIvn7pTUhYSt0kMy2sNCTM3xR_-vM0JjIej59TLQjykezStK7vtIocmF1umHPd2xyv_pBYGkF-9nOfwnO7yVyNpvmrGaYFuJH6cboHkLkO0aDGZmzZrkN1NdyVQavsAnn6CIlAR',
+  refreshToken: 'AQA-EhCymLZYvhUGSrd5J92Sa-HODEox9DUqHK2A6JiqAkMSBKzBXk4kRRuHZm3feOs7kxavxUX2asj-uSGFHJZ8xIzvyh8jJalH3paWgBQaPEezrWxwOdnUvd5LbOrhTA8',
+  username: '31nmckml4n6pnag7d6sdwwvurcdu',
+  accessTokenExpires: 'function now() { [native code] }3600000',
+  iat: 1639928703,
+  exp: 1642520703,
+  jti: '9cdb34bf-d783-490c-ace6-3a4289684f36'
+}
+wait  - compiling /api/auth/[...nextauth]...
+event - compiled client and server successfully in 300 ms (589 modules)
+
+ 2021-12-19 09:46:45
+ 💙 ~ file: spotify.js ~ line 28 ~ SpotifyWebApi:  [Function: SpotifyWebApi] { _addMethods: [Function (anonymous)] }
+
+ 2021-12-19 09:46:45
+ 🔷 ~ file: [...nextauth].js ~ line 59 ~ callbacks ~ jwt ~ token:  {
+  name: 'Viktor Óolen',
+  email: 'ciberpunk3r@gmail.com',
+  sub: '31nmckml4n6pnag7d6sdwwvurcdu',
+  accessToken: 'BQAhrCMVvU1DofH_2zBt2YHBoGCt8qTxUZI7eHvxcuQk06mIDMJFOPqsQ4OEOrPRNu-UQjJaOUg9sxPzZDfyv7_o8KhDlFIvn7pTUhYSt0kMy2sNCTM3xR_-vM0JjIej59TLQjykezStK7vtIocmF1umHPd2xyv_pBYGkF-9nOfwnO7yVyNpvmrGaYFuJH6cboHkLkO0aDGZmzZrkN1NdyVQavsAnn6CIlAR',
+  refreshToken: 'AQA-EhCymLZYvhUGSrd5J92Sa-HODEox9DUqHK2A6JiqAkMSBKzBXk4kRRuHZm3feOs7kxavxUX2asj-uSGFHJZ8xIzvyh8jJalH3paWgBQaPEezrWxwOdnUvd5LbOrhTA8',
+  username: '31nmckml4n6pnag7d6sdwwvurcdu',
+  accessTokenExpires: 'function now() { [native code] }3600000',
+  iat: 1639928703,
+  exp: 1642520703,
+  jti: '9cdb34bf-d783-490c-ace6-3a4289684f36'
+}
+
+ 2021-12-19 09:46:45
+ 🔺 ACCES TOKEN HAS EXPIRED, REFRESHING... ~ file: [...nextauth].js ~ line 85 ~ callbacks ~ jwt ~
+
+ 2021-12-19 09:46:45
+ 🟡 ~ file: [...nextauth].js ~ line 8 ~ refreshAccessToken ~ token:  {
+  name: 'Viktor Óolen',
+  email: 'ciberpunk3r@gmail.com',
+  sub: '31nmckml4n6pnag7d6sdwwvurcdu',
+  accessToken: 'BQAhrCMVvU1DofH_2zBt2YHBoGCt8qTxUZI7eHvxcuQk06mIDMJFOPqsQ4OEOrPRNu-UQjJaOUg9sxPzZDfyv7_o8KhDlFIvn7pTUhYSt0kMy2sNCTM3xR_-vM0JjIej59TLQjykezStK7vtIocmF1umHPd2xyv_pBYGkF-9nOfwnO7yVyNpvmrGaYFuJH6cboHkLkO0aDGZmzZrkN1NdyVQavsAnn6CIlAR',
+  refreshToken: 'AQA-EhCymLZYvhUGSrd5J92Sa-HODEox9DUqHK2A6JiqAkMSBKzBXk4kRRuHZm3feOs7kxavxUX2asj-uSGFHJZ8xIzvyh8jJalH3paWgBQaPEezrWxwOdnUvd5LbOrhTA8',
+  username: '31nmckml4n6pnag7d6sdwwvurcdu',
+  accessTokenExpires: 'function now() { [native code] }3600000',
+  iat: 1639928703,
+  exp: 1642520703,
+  jti: '9cdb34bf-d783-490c-ace6-3a4289684f36'
+}
+
+ 2021-12-19 09:46:44
+ 💙 ~ file: _middleware.js ~ line 6 ~ middleware ~ req:  NextRequestHint [Request] {
+  sourcePage: '/_middleware',
+  [Symbol(internal body)]: { bodyInit: null, disturbed: false },
+  [Symbol(internal request)]: {
+    credentials: 'same-origin',
+    headers: BaseHeaders [Headers] { [Symbol(map)]: [Object] },
+    method: 'HEAD',
+    referrer: 'about:client',
+    redirect: 'follow',
+    url: NextURL {
+      href: '/',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  },
+  [Symbol(internal request)]: {
+    cookieParser: [Function: cookieParser],
+    geo: {},
+    ip: undefined,
+    page: { name: '/' },
+    url: NextURL {
+      href: '/',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  }
+}
+
+ 2021-12-19 09:46:44
+ 💙 ~ file: _middleware.js ~ line 7 ~ middleware ~ token {
+  name: 'Viktor Óolen',
+  email: 'ciberpunk3r@gmail.com',
+  sub: '31nmckml4n6pnag7d6sdwwvurcdu',
+  accessToken: 'BQAhrCMVvU1DofH_2zBt2YHBoGCt8qTxUZI7eHvxcuQk06mIDMJFOPqsQ4OEOrPRNu-UQjJaOUg9sxPzZDfyv7_o8KhDlFIvn7pTUhYSt0kMy2sNCTM3xR_-vM0JjIej59TLQjykezStK7vtIocmF1umHPd2xyv_pBYGkF-9nOfwnO7yVyNpvmrGaYFuJH6cboHkLkO0aDGZmzZrkN1NdyVQavsAnn6CIlAR',
+  refreshToken: 'AQA-EhCymLZYvhUGSrd5J92Sa-HODEox9DUqHK2A6JiqAkMSBKzBXk4kRRuHZm3feOs7kxavxUX2asj-uSGFHJZ8xIzvyh8jJalH3paWgBQaPEezrWxwOdnUvd5LbOrhTA8',
+  username: '31nmckml4n6pnag7d6sdwwvurcdu',
+  accessTokenExpires: 'function now() { [native code] }3600000',
+  iat: 1639928703,
+  exp: 1642520703,
+  jti: '9cdb34bf-d783-490c-ace6-3a4289684f36'
+}
+
+ 2021-12-19 09:46:45
+ 🟢 REFRESHED TOKEN IS ~ file: [...nextauth].js ~ line 11 ~ refreshedToken  {
+  access_token: 'BQBlYeUit-Xd93JXiunvoZslzzRnt6Y3-k_CAoJkvICdr5XHvK7zch5LBLtv5VslTzbmODnaRkDXGgANPz3B4SvQElvQ5youiZO-OQRQki-rybTfcrVjYF71Aqf-W3GEgA9bZmBeDx-8IpF9wyuOs55wBOi8Y2teSa6CBXdcCL3_r90E3GuJXDO7hIrdZzOZb-LQb_0WxUb6g8mcYM95CI78tj4_EmqyNLux',
+  token_type: 'Bearer',
+  expires_in: 3600,
+  scope: 'playlist-read-private playlist-read-collaborative streaming user-modify-playback-state user-library-read user-follow-read user-read-playback-state user-read-currently-playing user-read-email user-read-recently-played user-read-private user-top-read'
+}

@@ -8,26 +8,12 @@ import {
   LoginIcon,
 } from '@heroicons/react/outline';
 import { signOut, useSession } from 'next-auth/react';
-// import Login from '../pages/login';
-
-//import './log-timestamp'
-//import 'log-timestamp';
-//import log from 'fancy-log';
-
+import {time} from '../lib/utils'
 function Sidebar() {
   const { data: session, status } = useSession();
 
-  //console.timeStamp('timeStamp');
-  console.log(
-    '\r\n🚀 ~ file: Sidebar.js ~ line 22 ~ Sidebar ~ session: ',
-    session
-  );
-  console.log(
-    '\r\n🚀 ~ file: Sidebar.js ~ line 26 ~ Sidebar ~ status: ',
-    status
-  );
-
-  //log("\r\n 🚀 ~ file: Sidebar.js ~ line 15 ~ Sidebar ~ session", session)
+  console.log( time, '🟦 ~ file: Sidebar.js ~ line 22 ~ Sidebar ~ session: ', session );
+  console.log( time, '🟦 ~ file: Sidebar.js ~ line 26 ~ Sidebar ~ status: ', status );
 
   return (
     <div className="text-gray-500 p-5 text-sm border-r border-gray-900">

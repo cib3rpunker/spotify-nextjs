@@ -1,0 +1,401 @@
+ Ollerbytes@MSI  N:\PROJECTs\spotify_nextjs  main  npm run dev
+
+> dev
+> next dev
+
+ready - started server on 0.0.0.0:3000, url: http://localhost:3000
+info  - Loaded env from N:\PROJECTs\spotify_nextjs\.env.local
+event - compiled client and server successfully in 2.3s (200 modules)
+warn  - using beta Middleware (not covered by semver) - https://nextjs.org/docs/messages/beta-middleware
+wait  - compiling /_middleware...
+event - compiled client and server successfully in 435 ms (327 modules)
+
+ 2021-12-18 23:42:05
+🚀 ~ file: _middleware.js ~ line 5 ~ middleware ~ req: NextRequestHint [Request] {
+  sourcePage: '/_middleware',
+  [Symbol(internal body)]: { bodyInit: null, disturbed: false },
+  [Symbol(internal request)]: {
+    credentials: 'same-origin',
+    headers: BaseHeaders [Headers] { [Symbol(map)]: [Object] },
+    method: 'GET',
+    referrer: 'about:client',
+    redirect: 'follow',
+    url: NextURL {
+      href: '/',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  },
+  [Symbol(internal request)]: {
+    cookieParser: [Function: cookieParser],
+    geo: {},
+    ip: undefined,
+    page: { name: '/' },
+    url: NextURL {
+      href: '/',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  }
+}
+🚀 ~ file: _middleware.js ~ line 7 ~ middleware ~ token null
+
+ 2021-12-18 23:42:05
+🚀 ~ file: _middleware.js ~ line 5 ~ middleware ~ req NextRequestHint [Request] {
+  sourcePage: '/_middleware',
+  [Symbol(internal body)]: { bodyInit: null, disturbed: false },
+  [Symbol(internal request)]: {
+    credentials: 'same-origin',
+    headers: BaseHeaders [Headers] { [Symbol(map)]: [Object] },
+    method: 'GET',
+    referrer: 'about:client',
+    redirect: 'follow',
+    url: NextURL {
+      href: '/login',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/login',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  },
+  [Symbol(internal request)]: {
+    cookieParser: [Function: cookieParser],
+    geo: {},
+    ip: undefined,
+    page: { name: '/login' },
+    url: NextURL {
+      href: '/login',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/login',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  }
+}
+🚀 ~ file: _middleware.js ~ line 7 ~ middleware ~ token null
+wait  - compiling /login (client and server)...
+event - compiled client and server successfully in 119 ms (330 modules)
+
+ 2021-12-18 23:42:06
+🚀 ~ file: _middleware.js ~ line 5 ~ middleware ~ req NextRequestHint [Request] {
+  sourcePage: '/_middleware',
+  [Symbol(internal body)]: { bodyInit: null, disturbed: false },
+  [Symbol(internal request)]: {
+    credentials: 'same-origin',
+    headers: BaseHeaders [Headers] { [Symbol(map)]: [Object] },
+    method: 'GET',
+    referrer: 'about:client',
+    redirect: 'follow',
+    url: NextURL {
+      href: '/api/auth/providers',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/api/auth/providers',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  },
+  [Symbol(internal request)]: {
+    cookieParser: [Function: cookieParser],
+    geo: {},
+    ip: undefined,
+    page: { name: '/api/auth/[...nextauth]', params: [Object] },
+    url: NextURL {
+      href: '/api/auth/providers',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/api/auth/providers',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  }
+}
+🚀 ~ file: _middleware.js ~ line 7 ~ middleware ~ token null
+wait  - compiling /api/auth/[...nextauth]...
+event - compiled client and server successfully in 118 ms (345 modules)
+
+🚀 ~ file: spotify.js ~ line 28 ~ process.env.NEXT_PUBLIC_CLIENT_ID 20696608b0044cf181e0bac05dcaa1af
+
+ 2021-12-18 23:42:07
+🚀 ~ file: _middleware.js ~ line 5 ~ middleware ~ req NextRequestHint [Request] {
+  sourcePage: '/_middleware',
+  [Symbol(internal body)]: { bodyInit: null, disturbed: false },
+  [Symbol(internal request)]: {
+    credentials: 'same-origin',
+    headers: BaseHeaders [Headers] { [Symbol(map)]: [Object] },
+    method: 'GET',
+    referrer: 'about:client',
+    redirect: 'follow',
+    url: NextURL {
+      href: '/api/auth/session',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/api/auth/session',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  },
+  [Symbol(internal request)]: {
+    cookieParser: [Function: cookieParser],
+    geo: {},
+    ip: undefined,
+    page: { name: '/api/auth/[...nextauth]', params: [Object] },
+    url: NextURL {
+      href: '/api/auth/session',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/api/auth/session',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  }
+}
+🚀 ~ file: _middleware.js ~ line 7 ~ middleware ~ token null
+
+ 2021-12-18 23:42:07
+🚀 ~ file: _middleware.js ~ line 5 ~ middleware ~ req NextRequestHint [Request] {
+  sourcePage: '/_middleware',
+  [Symbol(internal body)]: { bodyInit: null, disturbed: false },
+  [Symbol(internal request)]: {
+    credentials: 'same-origin',
+    headers: BaseHeaders [Headers] { [Symbol(map)]: [Object] },
+    method: 'GET',
+    referrer: 'about:client',
+    redirect: 'follow',
+    url: NextURL {
+      href: '/favicon.ico',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/favicon.ico',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  },
+  [Symbol(internal request)]: {
+    cookieParser: [Function: cookieParser],
+    geo: {},
+    ip: undefined,
+    page: {},
+    url: NextURL {
+      href: '/favicon.ico',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/favicon.ico',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  }
+}
+🚀 ~ file: _middleware.js ~ line 7 ~ middleware ~ token null
+
+ 2021-12-18 23:42:07
+🚀 ~ file: _middleware.js ~ line 5 ~ middleware ~ req NextRequestHint [Request] {
+  sourcePage: '/_middleware',
+  [Symbol(internal body)]: { bodyInit: null, disturbed: false },
+  [Symbol(internal request)]: {
+    credentials: 'same-origin',
+    headers: BaseHeaders [Headers] { [Symbol(map)]: [Object] },
+    method: 'GET',
+    referrer: 'about:client',
+    redirect: 'follow',
+    url: NextURL {
+      href: '/api/auth/session',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/api/auth/session',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  },
+  [Symbol(internal request)]: {
+    cookieParser: [Function: cookieParser],
+    geo: {},
+    ip: undefined,
+    page: { name: '/api/auth/[...nextauth]', params: [Object] },
+    url: NextURL {
+      href: '/api/auth/session',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/api/auth/session',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  }
+}
+🚀 ~ file: _middleware.js ~ line 7 ~ middleware ~ token null
+
+ 2021-12-18 23:42:07
+🚀 ~ file: _middleware.js ~ line 5 ~ middleware ~ req NextRequestHint [Request] {
+  sourcePage: '/_middleware',
+  [Symbol(internal body)]: { bodyInit: null, disturbed: false },
+  [Symbol(internal request)]: {
+    credentials: 'same-origin',
+    headers: BaseHeaders [Headers] { [Symbol(map)]: [Object] },
+    method: 'GET',
+    referrer: 'about:client',
+    redirect: 'follow',
+    url: NextURL {
+      href: '/login',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/login',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  },
+  [Symbol(internal request)]: {
+    cookieParser: [Function: cookieParser],
+    geo: {},
+    ip: undefined,
+    page: { name: '/login' },
+    url: NextURL {
+      href: '/login',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/login',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  }
+}
+🚀 ~ file: _middleware.js ~ line 7 ~ middleware ~ token null
+
+ 2021-12-18 23:42:07
+🚀 ~ file: _middleware.js ~ line 5 ~ middleware ~ req NextRequestHint [Request] {
+  sourcePage: '/_middleware',
+  [Symbol(internal body)]: { bodyInit: null, disturbed: false },
+  [Symbol(internal request)]: {
+    credentials: 'same-origin',
+    headers: BaseHeaders [Headers] { [Symbol(map)]: [Object] },
+    method: 'GET',
+    referrer: 'about:client',
+    redirect: 'follow',
+    url: NextURL {
+      href: '/api/auth/providers',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/api/auth/providers',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  },
+  [Symbol(internal request)]: {
+    cookieParser: [Function: cookieParser],
+    geo: {},
+    ip: undefined,
+    page: { name: '/api/auth/[...nextauth]', params: [Object] },
+    url: NextURL {
+      href: '/api/auth/providers',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/api/auth/providers',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  }
+}
+🚀 ~ file: _middleware.js ~ line 7 ~ middleware ~ token null

@@ -1,0 +1,968 @@
+ Ollerbytes@MSI  N:\PROJECTs\spotify_nextjs  main  npm run dev
+
+> dev
+> next dev
+
+ready - started server on 0.0.0.0:3000, url: http://localhost:3000
+info  - Loaded env from N:\PROJECTs\spotify_nextjs\.env.local
+event - compiled client and server successfully in 2.7s (200 modules)
+warn  - using beta Middleware (not covered by semver) - https://nextjs.org/docs/messages/beta-middleware
+wait  - compiling /_middleware...
+event - compiled client and server successfully in 503 ms (327 modules)
+
+ 2021-12-19 08:04:55
+🚀 ~ file: _middleware.js ~ line 5 ~ middleware ~ req:  NextRequestHint [Request] {
+  sourcePage: '/_middleware',
+  [Symbol(internal body)]: { bodyInit: null, disturbed: false },
+  [Symbol(internal request)]: {
+    credentials: 'same-origin',
+    headers: BaseHeaders [Headers] { [Symbol(map)]: [Object] },
+    method: 'GET',
+    referrer: 'about:client',
+    redirect: 'follow',
+    url: NextURL {
+      href: '/login',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/login',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  },
+  [Symbol(internal request)]: {
+    cookieParser: [Function: cookieParser],
+    geo: {},
+    ip: undefined,
+    page: { name: '/login' },
+    url: NextURL {
+      href: '/login',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/login',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  }
+}
+🚀 ~ file: _middleware.js ~ line 7 ~ middleware ~ token null
+wait  - compiling /login (client and server)...
+event - compiled client and server successfully in 165 ms (330 modules)
+
+ 2021-12-19 08:04:55
+🚀 ~ file: _middleware.js ~ line 5 ~ middleware ~ req:  NextRequestHint [Request] {
+  sourcePage: '/_middleware',
+  [Symbol(internal body)]: { bodyInit: null, disturbed: false },
+  [Symbol(internal request)]: {
+    credentials: 'same-origin',
+    headers: BaseHeaders [Headers] { [Symbol(map)]: [Object] },
+    method: 'GET',
+    referrer: 'about:client',
+    redirect: 'follow',
+    url: NextURL {
+      href: '/api/auth/providers',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/api/auth/providers',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  },
+  [Symbol(internal request)]: {
+    cookieParser: [Function: cookieParser],
+    geo: {},
+    ip: undefined,
+    page: { name: '/api/auth/[...nextauth]', params: [Object] },
+    url: NextURL {
+      href: '/api/auth/providers',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/api/auth/providers',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  }
+}
+🚀 ~ file: _middleware.js ~ line 7 ~ middleware ~ token null
+wait  - compiling /api/auth/[...nextauth]...
+event - compiled client and server successfully in 155 ms (345 modules)
+
+🚀 ~ file: spotify.js ~ line 28 ~ process.env.NEXT_PUBLIC_CLIENT_ID 20696608b0044cf181e0bac05dcaa1af
+
+ 2021-12-19 08:04:56
+🚀 ~ file: _middleware.js ~ line 5 ~ middleware ~ req:  NextRequestHint [Request] {
+  sourcePage: '/_middleware',
+  [Symbol(internal body)]: { bodyInit: null, disturbed: false },
+  [Symbol(internal request)]: {
+    credentials: 'same-origin',
+    headers: BaseHeaders [Headers] { [Symbol(map)]: [Object] },
+    method: 'GET',
+    referrer: 'about:client',
+    redirect: 'follow',
+    url: NextURL {
+      href: '/api/auth/session',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/api/auth/session',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  },
+  [Symbol(internal request)]: {
+    cookieParser: [Function: cookieParser],
+    geo: {},
+    ip: undefined,
+    page: { name: '/api/auth/[...nextauth]', params: [Object] },
+    url: NextURL {
+      href: '/api/auth/session',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/api/auth/session',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  }
+}
+🚀 ~ file: _middleware.js ~ line 7 ~ middleware ~ token null
+
+ 2021-12-19 08:04:57
+🚀 ~ file: _middleware.js ~ line 5 ~ middleware ~ req:  NextRequestHint [Request] {
+  sourcePage: '/_middleware',
+  [Symbol(internal body)]: { bodyInit: null, disturbed: false },
+  [Symbol(internal request)]: {
+    credentials: 'same-origin',
+    headers: BaseHeaders [Headers] { [Symbol(map)]: [Object] },
+    method: 'GET',
+    referrer: 'about:client',
+    redirect: 'follow',
+    url: NextURL {
+      href: '/favicon.ico',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/favicon.ico',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  },
+  [Symbol(internal request)]: {
+    cookieParser: [Function: cookieParser],
+    geo: {},
+    ip: undefined,
+    page: {},
+    url: NextURL {
+      href: '/favicon.ico',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/favicon.ico',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  }
+}
+🚀 ~ file: _middleware.js ~ line 7 ~ middleware ~ token null
+
+ 2021-12-19 08:04:57
+🚀 ~ file: _middleware.js ~ line 5 ~ middleware ~ req:  NextRequestHint [Request] {
+  sourcePage: '/_middleware',
+  [Symbol(internal body)]: { bodyInit: null, disturbed: false },
+  [Symbol(internal request)]: {
+    credentials: 'same-origin',
+    headers: BaseHeaders [Headers] { [Symbol(map)]: [Object] },
+    method: 'GET',
+    referrer: 'about:client',
+    redirect: 'follow',
+    url: NextURL {
+      href: '/login',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/login',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  },
+  [Symbol(internal request)]: {
+    cookieParser: [Function: cookieParser],
+    geo: {},
+    ip: undefined,
+    page: { name: '/login' },
+    url: NextURL {
+      href: '/login',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/login',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  }
+}
+🚀 ~ file: _middleware.js ~ line 7 ~ middleware ~ token null
+
+ 2021-12-19 08:04:57
+🚀 ~ file: _middleware.js ~ line 5 ~ middleware ~ req:  NextRequestHint [Request] {
+  sourcePage: '/_middleware',
+  [Symbol(internal body)]: { bodyInit: null, disturbed: false },
+  [Symbol(internal request)]: {
+    credentials: 'same-origin',
+    headers: BaseHeaders [Headers] { [Symbol(map)]: [Object] },
+    method: 'GET',
+    referrer: 'about:client',
+    redirect: 'follow',
+    url: NextURL {
+      href: '/api/auth/providers',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/api/auth/providers',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  },
+  [Symbol(internal request)]: {
+    cookieParser: [Function: cookieParser],
+    geo: {},
+    ip: undefined,
+    page: { name: '/api/auth/[...nextauth]', params: [Object] },
+    url: NextURL {
+      href: '/api/auth/providers',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/api/auth/providers',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  }
+}
+🚀 ~ file: _middleware.js ~ line 7 ~ middleware ~ token null
+
+ 2021-12-19 08:05:01
+🚀 ~ file: _middleware.js ~ line 5 ~ middleware ~ req:  NextRequestHint [Request] {
+  sourcePage: '/_middleware',
+  [Symbol(internal body)]: { bodyInit: null, disturbed: false },
+  [Symbol(internal request)]: {
+    credentials: 'same-origin',
+    headers: BaseHeaders [Headers] { [Symbol(map)]: [Object] },
+    method: 'GET',
+    referrer: 'about:client',
+    redirect: 'follow',
+    url: NextURL {
+      href: '/login',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/login',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  },
+  [Symbol(internal request)]: {
+    cookieParser: [Function: cookieParser],
+    geo: {},
+    ip: undefined,
+    page: { name: '/login' },
+    url: NextURL {
+      href: '/login',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/login',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  }
+}
+🚀 ~ file: _middleware.js ~ line 7 ~ middleware ~ token null
+
+ 2021-12-19 08:05:01
+🚀 ~ file: _middleware.js ~ line 5 ~ middleware ~ req:  NextRequestHint [Request] {
+  sourcePage: '/_middleware',
+  [Symbol(internal body)]: { bodyInit: null, disturbed: false },
+  [Symbol(internal request)]: {
+    credentials: 'same-origin',
+    headers: BaseHeaders [Headers] { [Symbol(map)]: [Object] },
+    method: 'GET',
+    referrer: 'about:client',
+    redirect: 'follow',
+    url: NextURL {
+      href: '/api/auth/providers',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/api/auth/providers',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  },
+  [Symbol(internal request)]: {
+    cookieParser: [Function: cookieParser],
+    geo: {},
+    ip: undefined,
+    page: { name: '/api/auth/[...nextauth]', params: [Object] },
+    url: NextURL {
+      href: '/api/auth/providers',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/api/auth/providers',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  }
+}
+🚀 ~ file: _middleware.js ~ line 7 ~ middleware ~ token null
+
+ 2021-12-19 08:05:02
+🚀 ~ file: _middleware.js ~ line 5 ~ middleware ~ req:  NextRequestHint [Request] {
+  sourcePage: '/_middleware',
+  [Symbol(internal body)]: { bodyInit: null, disturbed: false },
+  [Symbol(internal request)]: {
+    credentials: 'same-origin',
+    headers: BaseHeaders [Headers] { [Symbol(map)]: [Object] },
+    method: 'GET',
+    referrer: 'about:client',
+    redirect: 'follow',
+    url: NextURL {
+      href: '/favicon.ico',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/favicon.ico',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  },
+  [Symbol(internal request)]: {
+    cookieParser: [Function: cookieParser],
+    geo: {},
+    ip: undefined,
+    page: {},
+    url: NextURL {
+      href: '/favicon.ico',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/favicon.ico',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  }
+}
+🚀 ~ file: _middleware.js ~ line 7 ~ middleware ~ token null
+
+ 2021-12-19 08:05:02
+🚀 ~ file: _middleware.js ~ line 5 ~ middleware ~ req:  NextRequestHint [Request] {
+  sourcePage: '/_middleware',
+  [Symbol(internal body)]: { bodyInit: null, disturbed: false },
+  [Symbol(internal request)]: {
+    credentials: 'same-origin',
+    headers: BaseHeaders [Headers] { [Symbol(map)]: [Object] },
+    method: 'GET',
+    referrer: 'about:client',
+    redirect: 'follow',
+    url: NextURL {
+      href: '/login',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/login',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  },
+  [Symbol(internal request)]: {
+    cookieParser: [Function: cookieParser],
+    geo: {},
+    ip: undefined,
+    page: { name: '/login' },
+    url: NextURL {
+      href: '/login',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/login',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  }
+}
+🚀 ~ file: _middleware.js ~ line 7 ~ middleware ~ token null
+
+ 2021-12-19 08:05:02
+🚀 ~ file: _middleware.js ~ line 5 ~ middleware ~ req:  NextRequestHint [Request] {
+  sourcePage: '/_middleware',
+  [Symbol(internal body)]: { bodyInit: null, disturbed: false },
+  [Symbol(internal request)]: {
+    credentials: 'same-origin',
+    headers: BaseHeaders [Headers] { [Symbol(map)]: [Object] },
+    method: 'GET',
+    referrer: 'about:client',
+    redirect: 'follow',
+    url: NextURL {
+      href: '/api/auth/providers',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/api/auth/providers',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  },
+  [Symbol(internal request)]: {
+    cookieParser: [Function: cookieParser],
+    geo: {},
+    ip: undefined,
+    page: { name: '/api/auth/[...nextauth]', params: [Object] },
+    url: NextURL {
+      href: '/api/auth/providers',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/api/auth/providers',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  }
+}
+🚀 ~ file: _middleware.js ~ line 7 ~ middleware ~ token null
+
+ 2021-12-19 08:06:00
+🚀 ~ file: _middleware.js ~ line 5 ~ middleware ~ req:  NextRequestHint [Request] {
+  sourcePage: '/_middleware',
+  [Symbol(internal body)]: { bodyInit: null, disturbed: false },
+  [Symbol(internal request)]: {
+    credentials: 'same-origin',
+    headers: BaseHeaders [Headers] { [Symbol(map)]: [Object] },
+    method: 'GET',
+    referrer: 'about:client',
+    redirect: 'follow',
+    url: NextURL {
+      href: '/api/auth/providers',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/api/auth/providers',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  },
+  [Symbol(internal request)]: {
+    cookieParser: [Function: cookieParser],
+    geo: {},
+    ip: undefined,
+    page: { name: '/api/auth/[...nextauth]', params: [Object] },
+    url: NextURL {
+      href: '/api/auth/providers',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/api/auth/providers',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  }
+}
+🚀 ~ file: _middleware.js ~ line 7 ~ middleware ~ token null
+
+ 2021-12-19 08:06:00
+🚀 ~ file: _middleware.js ~ line 5 ~ middleware ~ req:  NextRequestHint [Request] {
+  sourcePage: '/_middleware',
+  [Symbol(internal body)]: { bodyInit: null, disturbed: false },
+  [Symbol(internal request)]: {
+    credentials: 'same-origin',
+    headers: BaseHeaders [Headers] { [Symbol(map)]: [Object] },
+    method: 'GET',
+    referrer: 'about:client',
+    redirect: 'follow',
+    url: NextURL {
+      href: '/api/auth/csrf',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/api/auth/csrf',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  },
+  [Symbol(internal request)]: {
+    cookieParser: [Function: cookieParser],
+    geo: {},
+    ip: undefined,
+    page: { name: '/api/auth/[...nextauth]', params: [Object] },
+    url: NextURL {
+      href: '/api/auth/csrf',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/api/auth/csrf',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  }
+}
+🚀 ~ file: _middleware.js ~ line 7 ~ middleware ~ token null
+
+ 2021-12-19 08:06:00
+🚀 ~ file: _middleware.js ~ line 5 ~ middleware ~ req:  NextRequestHint [Request] {
+  sourcePage: '/_middleware',
+  [Symbol(internal body)]: { bodyInit: null, disturbed: false },
+  [Symbol(internal request)]: {
+    credentials: 'same-origin',
+    headers: BaseHeaders [Headers] { [Symbol(map)]: [Object] },
+    method: 'POST',
+    referrer: 'about:client',
+    redirect: 'follow',
+    url: NextURL {
+      href: '/api/auth/signin/spotify',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/api/auth/signin/spotify',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  },
+  [Symbol(internal request)]: {
+    cookieParser: [Function: cookieParser],
+    geo: {},
+    ip: undefined,
+    page: { name: '/api/auth/[...nextauth]', params: [Object] },
+    url: NextURL {
+      href: '/api/auth/signin/spotify',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/api/auth/signin/spotify',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  }
+}
+🚀 ~ file: _middleware.js ~ line 7 ~ middleware ~ token null
+
+ 2021-12-19 08:06:01
+🚀 ~ file: _middleware.js ~ line 5 ~ middleware ~ req:  NextRequestHint [Request] {
+  sourcePage: '/_middleware',
+  [Symbol(internal body)]: { bodyInit: null, disturbed: false },
+  [Symbol(internal request)]: {
+    credentials: 'same-origin',
+    headers: BaseHeaders [Headers] { [Symbol(map)]: [Object] },
+    method: 'GET',
+    referrer: 'about:client',
+    redirect: 'follow',
+    url: NextURL {
+      href: '/api/auth/callback/spotify?code=AQC_oWQel7OLFTzrLBiSTKrJc5Yqsv0xe95RHhzVb_7Pj1ivpDvbF4vPuGBm-ws_faUVsdRLFfxzveI52k4EbLSsvMeDKwg7hBr42avsDeQaGwDEkrHUEO9TG3PPCPoEupw92isdoUXnuyhgjEZvLe8a1-j9WPft_UtPYlJJFy3k5NsQO0p_DxIAssu-3VP6OKT930dj3owEA_NOr9AnBL1FbbzOGuHXNL0OirrHXuitWpxFjoiYocn1dVQ4ZyN5fEkqGeubBRodV_Cx6hCTmd2dBqYgxjy2WmdNzVYQuFZFloelUb5hf1kA0ce9aVPzBGFMLppuECkNdJDll_T09YssLNG7cfGfH7AmJ4XhWRpgul4DjqGEPLCluyzJBqUxc5dLi8Qqjty09iLI32PIqYzQwFJKdn6qnaZWtd8XBnXbva0oVRtjzY2-dhdKyjUy4qJcwJwH-leMazFIgBEajq0pYFfHjsIhrOl0I_dwYkt_c9bcEiAfxb933EqC4Q2qmfEKt7CHkAh5yq5DNf6xiJm1NhWEaoNu&state=WwJ7CCMEfCOKQh07fbFW65Bq-Rcf_wRF2Q1M5U8M-iA',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/api/auth/callback/spotify',
+      search: '?code=AQC_oWQel7OLFTzrLBiSTKrJc5Yqsv0xe95RHhzVb_7Pj1ivpDvbF4vPuGBm-ws_faUVsdRLFfxzveI52k4EbLSsvMeDKwg7hBr42avsDeQaGwDEkrHUEO9TG3PPCPoEupw92isdoUXnuyhgjEZvLe8a1-j9WPft_UtPYlJJFy3k5NsQO0p_DxIAssu-3VP6OKT930dj3owEA_NOr9AnBL1FbbzOGuHXNL0OirrHXuitWpxFjoiYocn1dVQ4ZyN5fEkqGeubBRodV_Cx6hCTmd2dBqYgxjy2WmdNzVYQuFZFloelUb5hf1kA0ce9aVPzBGFMLppuECkNdJDll_T09YssLNG7cfGfH7AmJ4XhWRpgul4DjqGEPLCluyzJBqUxc5dLi8Qqjty09iLI32PIqYzQwFJKdn6qnaZWtd8XBnXbva0oVRtjzY2-dhdKyjUy4qJcwJwH-leMazFIgBEajq0pYFfHjsIhrOl0I_dwYkt_c9bcEiAfxb933EqC4Q2qmfEKt7CHkAh5yq5DNf6xiJm1NhWEaoNu&state=WwJ7CCMEfCOKQh07fbFW65Bq-Rcf_wRF2Q1M5U8M-iA',
+      searchParams: URLSearchParams {
+        'code' => 'AQC_oWQel7OLFTzrLBiSTKrJc5Yqsv0xe95RHhzVb_7Pj1ivpDvbF4vPuGBm-ws_faUVsdRLFfxzveI52k4EbLSsvMeDKwg7hBr42avsDeQaGwDEkrHUEO9TG3PPCPoEupw92isdoUXnuyhgjEZvLe8a1-j9WPft_UtPYlJJFy3k5NsQO0p_DxIAssu-3VP6OKT930dj3owEA_NOr9AnBL1FbbzOGuHXNL0OirrHXuitWpxFjoiYocn1dVQ4ZyN5fEkqGeubBRodV_Cx6hCTmd2dBqYgxjy2WmdNzVYQuFZFloelUb5hf1kA0ce9aVPzBGFMLppuECkNdJDll_T09YssLNG7cfGfH7AmJ4XhWRpgul4DjqGEPLCluyzJBqUxc5dLi8Qqjty09iLI32PIqYzQwFJKdn6qnaZWtd8XBnXbva0oVRtjzY2-dhdKyjUy4qJcwJwH-leMazFIgBEajq0pYFfHjsIhrOl0I_dwYkt_c9bcEiAfxb933EqC4Q2qmfEKt7CHkAh5yq5DNf6xiJm1NhWEaoNu',
+        'state' => 'WwJ7CCMEfCOKQh07fbFW65Bq-Rcf_wRF2Q1M5U8M-iA' },
+      hash: ''
+    }
+  },
+  [Symbol(internal request)]: {
+    cookieParser: [Function: cookieParser],
+    geo: {},
+    ip: undefined,
+    page: { name: '/api/auth/[...nextauth]', params: [Object] },
+    url: NextURL {
+      href: '/api/auth/callback/spotify?code=AQC_oWQel7OLFTzrLBiSTKrJc5Yqsv0xe95RHhzVb_7Pj1ivpDvbF4vPuGBm-ws_faUVsdRLFfxzveI52k4EbLSsvMeDKwg7hBr42avsDeQaGwDEkrHUEO9TG3PPCPoEupw92isdoUXnuyhgjEZvLe8a1-j9WPft_UtPYlJJFy3k5NsQO0p_DxIAssu-3VP6OKT930dj3owEA_NOr9AnBL1FbbzOGuHXNL0OirrHXuitWpxFjoiYocn1dVQ4ZyN5fEkqGeubBRodV_Cx6hCTmd2dBqYgxjy2WmdNzVYQuFZFloelUb5hf1kA0ce9aVPzBGFMLppuECkNdJDll_T09YssLNG7cfGfH7AmJ4XhWRpgul4DjqGEPLCluyzJBqUxc5dLi8Qqjty09iLI32PIqYzQwFJKdn6qnaZWtd8XBnXbva0oVRtjzY2-dhdKyjUy4qJcwJwH-leMazFIgBEajq0pYFfHjsIhrOl0I_dwYkt_c9bcEiAfxb933EqC4Q2qmfEKt7CHkAh5yq5DNf6xiJm1NhWEaoNu&state=WwJ7CCMEfCOKQh07fbFW65Bq-Rcf_wRF2Q1M5U8M-iA',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/api/auth/callback/spotify',
+      search: '?code=AQC_oWQel7OLFTzrLBiSTKrJc5Yqsv0xe95RHhzVb_7Pj1ivpDvbF4vPuGBm-ws_faUVsdRLFfxzveI52k4EbLSsvMeDKwg7hBr42avsDeQaGwDEkrHUEO9TG3PPCPoEupw92isdoUXnuyhgjEZvLe8a1-j9WPft_UtPYlJJFy3k5NsQO0p_DxIAssu-3VP6OKT930dj3owEA_NOr9AnBL1FbbzOGuHXNL0OirrHXuitWpxFjoiYocn1dVQ4ZyN5fEkqGeubBRodV_Cx6hCTmd2dBqYgxjy2WmdNzVYQuFZFloelUb5hf1kA0ce9aVPzBGFMLppuECkNdJDll_T09YssLNG7cfGfH7AmJ4XhWRpgul4DjqGEPLCluyzJBqUxc5dLi8Qqjty09iLI32PIqYzQwFJKdn6qnaZWtd8XBnXbva0oVRtjzY2-dhdKyjUy4qJcwJwH-leMazFIgBEajq0pYFfHjsIhrOl0I_dwYkt_c9bcEiAfxb933EqC4Q2qmfEKt7CHkAh5yq5DNf6xiJm1NhWEaoNu&state=WwJ7CCMEfCOKQh07fbFW65Bq-Rcf_wRF2Q1M5U8M-iA',
+      searchParams: URLSearchParams {
+        'code' => 'AQC_oWQel7OLFTzrLBiSTKrJc5Yqsv0xe95RHhzVb_7Pj1ivpDvbF4vPuGBm-ws_faUVsdRLFfxzveI52k4EbLSsvMeDKwg7hBr42avsDeQaGwDEkrHUEO9TG3PPCPoEupw92isdoUXnuyhgjEZvLe8a1-j9WPft_UtPYlJJFy3k5NsQO0p_DxIAssu-3VP6OKT930dj3owEA_NOr9AnBL1FbbzOGuHXNL0OirrHXuitWpxFjoiYocn1dVQ4ZyN5fEkqGeubBRodV_Cx6hCTmd2dBqYgxjy2WmdNzVYQuFZFloelUb5hf1kA0ce9aVPzBGFMLppuECkNdJDll_T09YssLNG7cfGfH7AmJ4XhWRpgul4DjqGEPLCluyzJBqUxc5dLi8Qqjty09iLI32PIqYzQwFJKdn6qnaZWtd8XBnXbva0oVRtjzY2-dhdKyjUy4qJcwJwH-leMazFIgBEajq0pYFfHjsIhrOl0I_dwYkt_c9bcEiAfxb933EqC4Q2qmfEKt7CHkAh5yq5DNf6xiJm1NhWEaoNu',
+        'state' => 'WwJ7CCMEfCOKQh07fbFW65Bq-Rcf_wRF2Q1M5U8M-iA' },
+      hash: ''
+    }
+  }
+}
+🚀 ~ file: _middleware.js ~ line 7 ~ middleware ~ token null
+[08:06:01]
+🚀 ~ file: [...nextauth].js ~ line 54 ~ callbacks ~ jwt ~ token:  {
+  name: 'Viktor Óolen',
+  email: 'ciberpunk3r@gmail.com',
+  picture: undefined,
+  sub: '31nmckml4n6pnag7d6sdwwvurcdu'
+}
+
+ 2021-12-19 08:06:01
+🚀 ~ file: _middleware.js ~ line 5 ~ middleware ~ req:  NextRequestHint [Request] {
+  sourcePage: '/_middleware',
+  [Symbol(internal body)]: { bodyInit: null, disturbed: false },
+  [Symbol(internal request)]: {
+    credentials: 'same-origin',
+    headers: BaseHeaders [Headers] { [Symbol(map)]: [Object] },
+    method: 'GET',
+    referrer: 'about:client',
+    redirect: 'follow',
+    url: NextURL {
+      href: '/',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  },
+  [Symbol(internal request)]: {
+    cookieParser: [Function: cookieParser],
+    geo: {},
+    ip: undefined,
+    page: { name: '/' },
+    url: NextURL {
+      href: '/',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  }
+}
+🚀 ~ file: _middleware.js ~ line 7 ~ middleware ~ token {
+  name: 'Viktor Óolen',
+  email: 'ciberpunk3r@gmail.com',
+  sub: '31nmckml4n6pnag7d6sdwwvurcdu',
+  accessToken: 'BQDJmik4EoMh0rxtg7dzg5LLmD6KpuV3CC6Mbfi8cMWU536CDqct35qB9pSwsFweFThD3cb7I2JHK8jgJnvg8iTzAocHCQymAMksEjAwY-5KFqXwC8UK2IhgSgvTWX1CsIdQvlO6k_IZxTsU06vCXW6sRj0_1i3Fx4RG7_2f_4e9f9KnVLm-6qgto3Np9aw8xNKpr6XD4S4G6qkOXfaPLMFTny4fWsuYxQDW',
+  refreshToken: 'AQA-EhCymLZYvhUGSrd5J92Sa-HODEox9DUqHK2A6JiqAkMSBKzBXk4kRRuHZm3feOs7kxavxUX2asj-uSGFHJZ8xIzvyh8jJalH3paWgBQaPEezrWxwOdnUvd5LbOrhTA8',
+  username: '31nmckml4n6pnag7d6sdwwvurcdu',
+  accessTokenExpires: 1639926361000,
+  iat: 1639922761,
+  exp: 1642514761,
+  jti: '86bf5a62-85e4-4519-987e-c3543b1c8a19'
+}
+wait  - compiling / (client and server)...
+event - compiled client and server successfully in 629 ms (583 modules)
+
+🚀 ~ file: Sidebar.js ~ line 22 ~ Sidebar ~ session:  undefined
+
+🚀 ~ file: Sidebar.js ~ line 26 ~ Sidebar ~ status:  loading
+
+ 2021-12-19 08:06:03
+🚀 ~ file: _middleware.js ~ line 5 ~ middleware ~ req:  NextRequestHint [Request] {
+  sourcePage: '/_middleware',
+  [Symbol(internal body)]: { bodyInit: null, disturbed: false },
+  [Symbol(internal request)]: {
+    credentials: 'same-origin',
+    headers: BaseHeaders [Headers] { [Symbol(map)]: [Object] },
+    method: 'GET',
+    referrer: 'about:client',
+    redirect: 'follow',
+    url: NextURL {
+      href: '/api/auth/session',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/api/auth/session',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  },
+  [Symbol(internal request)]: {
+    cookieParser: [Function: cookieParser],
+    geo: {},
+    ip: undefined,
+    page: { name: '/api/auth/[...nextauth]', params: [Object] },
+    url: NextURL {
+      href: '/api/auth/session',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/api/auth/session',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  }
+}
+🚀 ~ file: _middleware.js ~ line 7 ~ middleware ~ token {
+  name: 'Viktor Óolen',
+  email: 'ciberpunk3r@gmail.com',
+  sub: '31nmckml4n6pnag7d6sdwwvurcdu',
+  accessToken: 'BQDJmik4EoMh0rxtg7dzg5LLmD6KpuV3CC6Mbfi8cMWU536CDqct35qB9pSwsFweFThD3cb7I2JHK8jgJnvg8iTzAocHCQymAMksEjAwY-5KFqXwC8UK2IhgSgvTWX1CsIdQvlO6k_IZxTsU06vCXW6sRj0_1i3Fx4RG7_2f_4e9f9KnVLm-6qgto3Np9aw8xNKpr6XD4S4G6qkOXfaPLMFTny4fWsuYxQDW',
+  refreshToken: 'AQA-EhCymLZYvhUGSrd5J92Sa-HODEox9DUqHK2A6JiqAkMSBKzBXk4kRRuHZm3feOs7kxavxUX2asj-uSGFHJZ8xIzvyh8jJalH3paWgBQaPEezrWxwOdnUvd5LbOrhTA8',
+  username: '31nmckml4n6pnag7d6sdwwvurcdu',
+  accessTokenExpires: 1639926361000,
+  iat: 1639922761,
+  exp: 1642514761,
+  jti: '86bf5a62-85e4-4519-987e-c3543b1c8a19'
+}
+
+🚀 ~ file: spotify.js ~ line 28 ~ process.env.NEXT_PUBLIC_CLIENT_ID 20696608b0044cf181e0bac05dcaa1af
+
+ 2021-12-19 08:06:03
+🚀 ~ file: _middleware.js ~ line 5 ~ middleware ~ req:  NextRequestHint [Request] {
+  sourcePage: '/_middleware',
+  [Symbol(internal body)]: { bodyInit: null, disturbed: false },
+  [Symbol(internal request)]: {
+    credentials: 'same-origin',
+    headers: BaseHeaders [Headers] { [Symbol(map)]: [Object] },
+    method: 'GET',
+    referrer: 'about:client',
+    redirect: 'follow',
+    url: NextURL {
+      href: '/favicon.ico',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/favicon.ico',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  },
+  [Symbol(internal request)]: {
+    cookieParser: [Function: cookieParser],
+    geo: {},
+    ip: undefined,
+    page: {},
+    url: NextURL {
+      href: '/favicon.ico',
+      origin: '',
+      protocol: '',
+      username: '',
+      password: '',
+      host: '',
+      hostname: '',
+      port: '',
+      pathname: '/favicon.ico',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  }
+}
+🚀 ~ file: _middleware.js ~ line 7 ~ middleware ~ token {
+  name: 'Viktor Óolen',
+  email: 'ciberpunk3r@gmail.com',
+  sub: '31nmckml4n6pnag7d6sdwwvurcdu',
+  accessToken: 'BQDJmik4EoMh0rxtg7dzg5LLmD6KpuV3CC6Mbfi8cMWU536CDqct35qB9pSwsFweFThD3cb7I2JHK8jgJnvg8iTzAocHCQymAMksEjAwY-5KFqXwC8UK2IhgSgvTWX1CsIdQvlO6k_IZxTsU06vCXW6sRj0_1i3Fx4RG7_2f_4e9f9KnVLm-6qgto3Np9aw8xNKpr6XD4S4G6qkOXfaPLMFTny4fWsuYxQDW',
+  refreshToken: 'AQA-EhCymLZYvhUGSrd5J92Sa-HODEox9DUqHK2A6JiqAkMSBKzBXk4kRRuHZm3feOs7kxavxUX2asj-uSGFHJZ8xIzvyh8jJalH3paWgBQaPEezrWxwOdnUvd5LbOrhTA8',
+  username: '31nmckml4n6pnag7d6sdwwvurcdu',
+  accessTokenExpires: 1639926361000,
+  iat: 1639922761,
+  exp: 1642514761,
+  jti: '86bf5a62-85e4-4519-987e-c3543b1c8a19'
+}
+[08:06:03]
+🚀 ~ file: [...nextauth].js ~ line 54 ~ callbacks ~ jwt ~ token:  {
+  name: 'Viktor Óolen',
+  email: 'ciberpunk3r@gmail.com',
+  sub: '31nmckml4n6pnag7d6sdwwvurcdu',
+  accessToken: 'BQDJmik4EoMh0rxtg7dzg5LLmD6KpuV3CC6Mbfi8cMWU536CDqct35qB9pSwsFweFThD3cb7I2JHK8jgJnvg8iTzAocHCQymAMksEjAwY-5KFqXwC8UK2IhgSgvTWX1CsIdQvlO6k_IZxTsU06vCXW6sRj0_1i3Fx4RG7_2f_4e9f9KnVLm-6qgto3Np9aw8xNKpr6XD4S4G6qkOXfaPLMFTny4fWsuYxQDW',
+  refreshToken: 'AQA-EhCymLZYvhUGSrd5J92Sa-HODEox9DUqHK2A6JiqAkMSBKzBXk4kRRuHZm3feOs7kxavxUX2asj-uSGFHJZ8xIzvyh8jJalH3paWgBQaPEezrWxwOdnUvd5LbOrhTA8',
+  username: '31nmckml4n6pnag7d6sdwwvurcdu',
+  accessTokenExpires: 1639926361000,
+  iat: 1639922761,
+  exp: 1642514761,
+  jti: '86bf5a62-85e4-4519-987e-c3543b1c8a19'
+}
+[08:06:03]
+🚀 ACCES TOKEN HAS EXPIRED, REFRESHING... ~ file: [...nextauth].js ~ line 85 ~ callbacks ~ jwt ~
+[08:06:03]
+🚀 ~ file: [...nextauth].js ~ line 8 ~ refreshAccessToken ~ token:  {
+  name: 'Viktor Óolen',
+  email: 'ciberpunk3r@gmail.com',
+  sub: '31nmckml4n6pnag7d6sdwwvurcdu',
+  accessToken: 'BQDJmik4EoMh0rxtg7dzg5LLmD6KpuV3CC6Mbfi8cMWU536CDqct35qB9pSwsFweFThD3cb7I2JHK8jgJnvg8iTzAocHCQymAMksEjAwY-5KFqXwC8UK2IhgSgvTWX1CsIdQvlO6k_IZxTsU06vCXW6sRj0_1i3Fx4RG7_2f_4e9f9KnVLm-6qgto3Np9aw8xNKpr6XD4S4G6qkOXfaPLMFTny4fWsuYxQDW',
+  refreshToken: 'AQA-EhCymLZYvhUGSrd5J92Sa-HODEox9DUqHK2A6JiqAkMSBKzBXk4kRRuHZm3feOs7kxavxUX2asj-uSGFHJZ8xIzvyh8jJalH3paWgBQaPEezrWxwOdnUvd5LbOrhTA8',
+  username: '31nmckml4n6pnag7d6sdwwvurcdu',
+  accessTokenExpires: 1639926361000,
+  iat: 1639922761,
+  exp: 1642514761,
+  jti: '86bf5a62-85e4-4519-987e-c3543b1c8a19'
+}
+[08:06:03]
+🚀 REFRESHED TOKEN IS ~ file: [...nextauth].js ~ line 11 ~ refreshedToken  {
+  access_token: 'BQBBihkEdf1kkWzJO4d7aOXySoY6XSLA9-1h22CQVWzCZ--C5fSRywZ3XaI4fOXX_mXIpBdP2_1lMExYh9LN2qMzuX9bz_oieDnVhGAfsU-0qTUkupE98viPfjjYUENbNdyH9MCQHGyennrQ5wwI36vfWggYamZFtN-Wf6UsC_sFFmMhPf_qtF6fh9GyX17ADt6NQUNWBoWatA99cowl8-_V5QxqLLaIazJe',
+  token_type: 'Bearer',
+  expires_in: 3600,
+  scope: 'playlist-read-private playlist-read-collaborative streaming user-modify-playback-state user-library-read user-follow-read user-read-playback-state user-read-currently-playing user-read-email user-read-recently-played user-read-private user-top-read'
+}
