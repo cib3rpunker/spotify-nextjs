@@ -21,7 +21,7 @@ export default Login;
 
 export async function getServerSideProps() {
   const providers = await getProviders();
-  // console.log("🚀 ~ file: login.js ~ line 22 ~ getServerSideProps ~ providers: ", providers)
+  //console.log("\r\n🚀 ~ file: login.js ~ line 22 ~ getServerSideProps ~ providers: ", providers)
 
   return {
     //* When it renders on the server the providers are gonna be passed through

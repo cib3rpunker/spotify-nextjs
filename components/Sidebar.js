@@ -5,17 +5,40 @@ import {
   HeartIcon,
   PlusCircleIcon,
   RssIcon,
-  LoginIcon
+  LoginIcon,
 } from '@heroicons/react/outline';
-import { signOut } from 'next-auth/react';
+import { signOut, useSession } from 'next-auth/react';
 // import Login from '../pages/login';
 
+//import './log-timestamp'
+//import 'log-timestamp';
+//import log from 'fancy-log';
+
 function Sidebar() {
+  const { data: session, status } = useSession();
+
+  //console.timeStamp('timeStamp');
+  console.log(
+    '\r\n🚀 ~ file: Sidebar.js ~ line 22 ~ Sidebar ~ session: ',
+    session
+  );
+  console.log(
+    '\r\n🚀 ~ file: Sidebar.js ~ line 26 ~ Sidebar ~ status: ',
+    status
+  );
+
+  //log("\r\n 🚀 ~ file: Sidebar.js ~ line 15 ~ Sidebar ~ session", session)
+
   return (
     <div className="text-gray-500 p-5 text-sm border-r border-gray-900">
       <div className="space-y-4">
-      <button className="flex items-center space-x-2 hover:text-white">
-          <LoginIcon className="h-5 w-5" onLcik={() => {signOut()} }/>
+        <button className="flex items-center space-x-2 hover:text-white">
+          <LoginIcon
+            className="h-5 w-5"
+            onClick={() => {
+              signOut();
+            }}
+          />
           <p>Logout</p>
         </button>
         <button className="flex items-center space-x-2 hover:text-white">

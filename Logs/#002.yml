@@ -1,0 +1,156 @@
+ Ollerbytes@MSI  N:\PROJECTs\spotify_nextjs  main  npm run dev
+
+> dev
+> next dev
+
+ready - started server on 0.0.0.0:3000, url: http://localhost:3000
+info  - Loaded env from N:\PROJECTs\spotify_nextjs\.env.local
+event - compiled client and server successfully in 614 ms (171 modules)
+wait  - compiling /login (client and server)...
+event - compiled client and server successfully in 142 ms (203 modules)
+wait  - compiling /api/auth/[...nextauth]...
+event - compiled client and server successfully in 157 ms (217 modules)
+🚀 ~ file: spotify.js ~ line 28 ~ process.env.NEXT_PUBLIC_CLIENT_ID 20696608b0044cf181e0bac05dcaa1af
+🚀 ~ file: [...nextauth].js ~ line 50 ~ jwt ~ token: {
+  name: 'Viktor Óolen',
+  email: 'ciberpunk3r@gmail.com',
+  picture: undefined,
+  sub: '31nmckml4n6pnag7d6sdwwvurcdu'
+}
+wait  - compiling / (client and server)...
+event - compiled client and server successfully in 842 ms (454 modules)
+wait  - compiling...
+event - compiled client and server successfully in 1823 ms (436 modules)
+wait  - compiling...
+event - compiled successfully in 321 ms (409 modules)
+wait  - compiling...
+event - compiled successfully in 271 ms (409 modules)
+wait  - compiling / (client and server)...
+event - compiled client and server successfully in 162 ms (440 modules)
+wait  - compiling /_error (client and server)...
+event - compiled client and server successfully in 224 ms (441 modules)
+error - components\Sidebar.js (16:11) @ Sidebar
+ReferenceError: Login is not defined
+  14 |       <div className="space-y-4">
+  15 |       <button className="flex items-center space-x-2 hover:text-white">
+> 16 |           <Login className="h-5 w-5" />
+     |           ^
+  17 |           <p>Logout</p>
+  18 |         </button>
+  19 |         <button className="flex items-center space-x-2 hover:text-white">
+wait  - compiling...
+event - compiled client and server successfully in 281 ms (443 modules)
+wait  - compiling...
+event - compiled client and server successfully in 319 ms (436 modules)
+wait  - compiling...
+event - compiled successfully in 183 ms (408 modules)
+wait  - compiling...
+event - compiled successfully in 142 ms (408 modules)
+wait  - compiling...
+event - compiled successfully in 133 ms (408 modules)
+wait  - compiling...
+event - compiled successfully in 188 ms (408 modules)
+wait  - compiling...
+event - compiled successfully in 192 ms (408 modules)
+wait  - compiling...
+event - compiled successfully in 274 ms (408 modules)
+wait  - compiling...
+event - compiled client and server successfully in 377 ms (436 modules)
+wait  - compiling...
+event - compiled client and server successfully in 215 ms (436 modules)
+wait  - compiling...
+event - compiled client and server successfully in 437 ms (436 modules)
+wait  - compiling /api/auth/[...nextauth]...
+event - compiled client and server successfully in 148 ms (450 modules)
+🚀 ~ file: spotify.js ~ line 28 ~ process.env.NEXT_PUBLIC_CLIENT_ID 20696608b0044cf181e0bac05dcaa1af
+🚀 ~ file: [...nextauth].js ~ line 54 ~ callbacks ~ jwt ~ token:  {
+  name: 'Viktor Óolen',
+  email: 'ciberpunk3r@gmail.com',
+  sub: '31nmckml4n6pnag7d6sdwwvurcdu',
+  accessToken: 'BQDXnortL2cEtvuizqMlw05WHDUTuJyQSF0IoLbfb4k1U8ygWV52spY8s8UwBUg0NkGFrvttn9XUFKXb5CfjJUXMIR4qC2Q_C529b9pYW88zTVuqfVU-zRP7gCszE60d6XEeCUFd-UT_sTEAQFlZu4VUigQwiTXnJ6g1rylTKy97KvE-xe6C82YrDwYcbfBT1rjUxt9kcozKl3t44tEg9gtMC6NFDM3Xe00w',
+  refreshToken: 'AQBb5DY5HazfqYRNHExKME9-Thznk-452HxsClKknrGHAkPeh8wojo-Lzl-c6HSzPCXWUG63HUBgGp2bwIkJXZ2egsmbeO_bXw_1KZ5vViEwPGgcnxwHmQJX7-4EM5ObBrU',
+  username: '31nmckml4n6pnag7d6sdwwvurcdu',
+  accessTokenExpires: 1639848063000,
+  email: 'ciberpunk3r@gmail.com',
+  sub: '31nmckml4n6pnag7d6sdwwvurcdu',
+  accessToken: 'BQDXnortL2cEtvuizqMlw05WHDUTuJyQSF0IoLbfb4k1U8ygWV52spY8s8UwBUg0NkGFrvttn9XUFKXb5CfjJUXMIR4qC2Q_C529b9pYW88zTVuqfVU-zRP7gCszE60d6XEeCUFd-UT_sTEAQFlZu4VUigQwiTXnJ6g1rylTKy97KvE-xe6C82YrDwYcbfBT1rjUxt9kcozKl3t44tEg9gtMC6NFDM3Xe00w',
+  refreshToken: 'AQBb5DY5HazfqYRNHExKME9-Thznk-452HxsClKknrGHAkPeh8wojo-Lzl-c6HSzPCXWUG63HUBgGp2bwIkJXZ2egsmbeO_bXw_1KZ5vViEwPGgcnxwHmQJX7-4EM5ObBrU',
+  username: '31nmckml4n6pnag7d6sdwwvurcdu',
+  accessTokenExpires: 1639848063000,
+  iat: 1639844464,                                                                                                       88zTVuqfVU-zRP7gCszE60d6XEeCUFd-UT_sTEAQFlZu4VUigQwiTXnJ6g1rylTKy97KvE-xe6C82YrDwYcbfBT1rjUxt9kcozKl3t44tEg9gtMC6NFDM3Xe00w',
+  exp: 1642436464,                                                                                                       ViEwPGgcnxwHmQJX7-4EM5ObBrU',
+  jti: '3866f297-ef15-48c1-9ec7-0f625e236d61'
+}
+🚀 REFRESHED TOKEN IS ~ file: [...nextauth].js ~ line 11 ~ refreshedToken  {
+  access_token: 'BQAarGE6JjjdB5qifwmkSXoWFVK2xd9eKkom12LeXQwxPZC1pRUxsHb82DK_6ZLHAKZV72liI-TiMKtFApGbSthofTlFtNKe2sQ1jiGKCCtq_5pt-LWkniNYWiiyC7GvR_qR8PczAhT81m6U3WfFKxWojaYnEcXkU8e5K7eYa6jxTNjldGKgiJ5Q_V8Bnqwilt74tGAtMX2l10CZqvElbnD4X_83dVzJnX_W',
+  token_type: 'Bearer',
+  expires_in: 3600,                                                                                                      CCtq_5pt-LWkniNYWiiyC7GvR_qR8PczAhT81m6U3WfFKxWojaYnEcXkU8e5K7eYa6jxTNjldGKgiJ5Q_V8Bnqwilt74tGAtMX2l10CZqvElbnD4X_83dVzJnX_W',
+  scope: 'playlist-read-private playlist-read-collaborative streaming user-modify-playback-state user-library-read user-follow-read user-read-playback-state user-read-currently-playing user-read-email user-read-recently-played user-read-private user-top-read'                                                                                                        ollow-read user-read-playback-state user-read-currently-playing user-read-email user-read-recently-played user-read-private user-top-read'
+}
+wait  - compiling /login (client and server)...
+event - compiled client and server successfully in 183 ms (439 modules)
+wait  - compiling /api/auth/[...nextauth]...
+event - compiled client and server successfully in 162 ms (453 modules)
+🚀 ~ file: spotify.js ~ line 28 ~ process.env.NEXT_PUBLIC_CLIENT_ID 20696608b0044cf181e0bac05dcaa1af
+🚀 ~ file: [...nextauth].js ~ line 54 ~ callbacks ~ jwt ~ token:  {
+  name: 'Viktor Óolen',
+  email: 'ciberpunk3r@gmail.com',
+  sub: '31nmckml4n6pnag7d6sdwwvurcdu',
+  accessToken: 'BQAarGE6JjjdB5qifwmkSXoWFVK2xd9eKkom12LeXQwxPZC1pRUxsHb82DK_6ZLHAKZV72liI-TiMKtFApGbSthofTlFtNKe2sQ1jiGKCCtq_5pt-LWkniNYWiiyC7GvR_qR8PczAhT81m6U3WfFKxWojaYnEcXkU8e5K7eYa6jxTNjldGKgiJ5Q_V8Bnqwilt74tGAtMX2l10CZqvElbnD4X_83dVzJnX_W',
+  refreshToken: 'AQBb5DY5HazfqYRNHExKME9-Thznk-452HxsClKknrGHAkPeh8wojo-Lzl-c6HSzPCXWUG63HUBgGp2bwIkJXZ2egsmbeO_bXw_1KZ5vViEwPGgcnxwHmQJX7-4EM5ObBrU',
+  username: '31nmckml4n6pnag7d6sdwwvurcdu',
+  accessTokenExpires: 'function now() { [native code] }3600000',
+  iat: 1639855777,
+  exp: 1642447777,
+  jti: 'db77826d-27d7-4c74-89e5-a34568d55251'
+}
+🚀 ACCES TOKEN HAS EXPIRED, REFRESHING... ~ file: [...nextauth].js ~ line 85 ~ callbacks ~ jwt ~
+🚀 ~ file: [...nextauth].js ~ line 8 ~ refreshAccessToken ~ token:  {
+  name: 'Viktor Óolen',
+  email: 'ciberpunk3r@gmail.com',
+  sub: '31nmckml4n6pnag7d6sdwwvurcdu',
+  accessToken: 'BQAarGE6JjjdB5qifwmkSXoWFVK2xd9eKkom12LeXQwxPZC1pRUxsHb82DK_6ZLHAKZV72liI-TiMKtFApGbSthofTlFtNKe2sQ1jiGKCCtq_5pt-LWkniNYWiiyC7GvR_qR8PczAhT81m6U3WfFKxWojaYnEcXkU8e5K7eYa6jxTNjldGKgiJ5Q_V8Bnqwilt74tGAtMX2l10CZqvElbnD4X_83dVzJnX_W',
+  refreshToken: 'AQBb5DY5HazfqYRNHExKME9-Thznk-452HxsClKknrGHAkPeh8wojo-Lzl-c6HSzPCXWUG63HUBgGp2bwIkJXZ2egsmbeO_bXw_1KZ5vViEwPGgcnxwHmQJX7-4EM5ObBrU',
+  username: '31nmckml4n6pnag7d6sdwwvurcdu',
+  accessTokenExpires: 'function now() { [native code] }3600000',
+  iat: 1639855777,
+  exp: 1642447777,
+  jti: 'db77826d-27d7-4c74-89e5-a34568d55251'
+}
+🚀 REFRESHED TOKEN IS ~ file: [...nextauth].js ~ line 11 ~ refreshedToken  {
+  access_token: 'BQCHVABAGu_sdlSskdEJYElbRjAg0r1_ht1KvaGAz774iysQAPlDxjyRjjTjLZaat6Llp2HvesZqc6jiiwYrrBFeThTof1--enXQf5C5ctFfQcC_UmU7VB5VvYHMMbt9oiGAXxr8qhsvFEO0sbkmcl6iHD9s3VqLgvZRLNqxw0EyW7kc3Se2AVW0Mjt__6eil7wFCwD9AwnuqI-ONPkQb7XAjAYvsIqCQQ-g',
+  token_type: 'Bearer',
+  expires_in: 3600,
+  scope: 'playlist-read-private playlist-read-collaborative streaming user-modify-playback-state user-library-read user-follow-read user-read-playback-state user-read-currently-playing user-read-email user-read-recently-played user-read-private user-top-read'
+}
+🚀 ~ file: [...nextauth].js ~ line 54 ~ callbacks ~ jwt ~ token:  {
+  name: 'Viktor Óolen',
+  email: 'ciberpunk3r@gmail.com',
+  sub: '31nmckml4n6pnag7d6sdwwvurcdu',
+  accessToken: 'BQCHVABAGu_sdlSskdEJYElbRjAg0r1_ht1KvaGAz774iysQAPlDxjyRjjTjLZaat6Llp2HvesZqc6jiiwYrrBFeThTof1--enXQf5C5ctFfQcC_UmU7VB5VvYHMMbt9oiGAXxr8qhsvFEO0sbkmcl6iHD9s3VqLgvZRLNqxw0EyW7kc3Se2AVW0Mjt__6eil7wFCwD9AwnuqI-ONPkQb7XAjAYvsIqCQQ-g',
+  refreshToken: 'AQBb5DY5HazfqYRNHExKME9-Thznk-452HxsClKknrGHAkPeh8wojo-Lzl-c6HSzPCXWUG63HUBgGp2bwIkJXZ2egsmbeO_bXw_1KZ5vViEwPGgcnxwHmQJX7-4EM5ObBrU',
+  username: '31nmckml4n6pnag7d6sdwwvurcdu',
+  accessTokenExpires: 'function now() { [native code] }3600000',
+  iat: 1639855995,
+  exp: 1642447995,
+  jti: 'ec7a00f2-d265-4561-89c0-9f74e77c7c7d'
+}
+🚀 ACCES TOKEN HAS EXPIRED, REFRESHING... ~ file: [...nextauth].js ~ line 85 ~ callbacks ~ jwt ~
+🚀 ~ file: [...nextauth].js ~ line 8 ~ refreshAccessToken ~ token:  {
+  name: 'Viktor Óolen',
+  email: 'ciberpunk3r@gmail.com',
+  sub: '31nmckml4n6pnag7d6sdwwvurcdu',
+  accessToken: 'BQCHVABAGu_sdlSskdEJYElbRjAg0r1_ht1KvaGAz774iysQAPlDxjyRjjTjLZaat6Llp2HvesZqc6jiiwYrrBFeThTof1--enXQf5C5ctFfQcC_UmU7VB5VvYHMMbt9oiGAXxr8qhsvFEO0sbkmcl6iHD9s3VqLgvZRLNqxw0EyW7kc3Se2AVW0Mjt__6eil7wFCwD9AwnuqI-ONPkQb7XAjAYvsIqCQQ-g',
+  refreshToken: 'AQBb5DY5HazfqYRNHExKME9-Thznk-452HxsClKknrGHAkPeh8wojo-Lzl-c6HSzPCXWUG63HUBgGp2bwIkJXZ2egsmbeO_bXw_1KZ5vViEwPGgcnxwHmQJX7-4EM5ObBrU',
+  username: '31nmckml4n6pnag7d6sdwwvurcdu',
+  accessTokenExpires: 'function now() { [native code] }3600000',
+  iat: 1639855995,
+  exp: 1642447995,
+  jti: 'ec7a00f2-d265-4561-89c0-9f74e77c7c7d'
+}
+🚀 REFRESHED TOKEN IS ~ file: [...nextauth].js ~ line 11 ~ refreshedToken  {
+  access_token: 'BQAlCMaw090CPoV4BY8Ruf_Es7VvgoxksSrWt5dRYCipF-t4g3wHUzpeUZByzN9-suAB4yOTjQwuT1GfLMdxDwa_btvZNeNkWI2QHcXlCcqOBSyKk_PUDy8uqoTcvYqrunUM4-R33P3ZhIF9zMgUA33mrjPgpoRfK--0I7aotmimJ8jkdwHmMSh9ZwBjvdkIueoiicPOp-ErDRH3h8GySkasb3iswdCaHcIJ',
+  token_type: 'Bearer',
+  expires_in: 3600,
+  scope: 'playlist-read-private playlist-read-collaborative streaming user-modify-playback-state user-library-read user-follow-read user-read-playback-state user-read-currently-playing user-read-email user-read-recently-played user-read-private user-top-read'
+}

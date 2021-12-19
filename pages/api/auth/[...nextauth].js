@@ -1,11 +1,14 @@
+import log from 'fancy-log';
 import NextAuth from 'next-auth';
 import SpotifyProvider from 'next-auth/providers/spotify';
 import spotifyApi, { LOGIN_URL } from '../../../lib/spotify';
 
 async function refreshAccessToken(token) {
   try {
-    console.log(
-      '🚀 ~ file: [...nextauth].js ~ line 8 ~ refreshAccessToken ~ token: ',
+    console.timeStamp('timeStamp');
+
+    log(
+      '\r\n🚀 ~ file: [...nextauth].js ~ line 8 ~ refreshAccessToken ~ token: ',
       token
     );
 
@@ -13,8 +16,8 @@ async function refreshAccessToken(token) {
     spotifyApi.setRefreshToken(token.refreshToken);
 
     const { body: refreshedToken } = await spotifyApi.refreshAccessToken();
-    console.log(
-      '🚀 REFRESHED TOKEN IS ~ file: [...nextauth].js ~ line 11 ~ refreshedToken ',
+    log(
+      '\r\n🚀 REFRESHED TOKEN IS ~ file: [...nextauth].js ~ line 11 ~ refreshedToken ',
       refreshedToken
     );
 
@@ -25,18 +28,16 @@ async function refreshAccessToken(token) {
       refreshToken: refreshedToken.refresh_token ?? token.refreshToken,
     };
   } catch (error) {
-    console.log(error);
+    log('\r\n🚀 ', error);
 
     return {
       ...token,
-      error: 'RegreshAccessTokenError',
+      error: '🚀 RegreshAccessTokenError',
     };
   }
 }
 
 export default NextAuth({
-  //console.log("🚀 ~ file: [...nextauth].js ~ line 39 ~ process.env.NEXT_PUBLIC_CLIENT_ID", process.env.NEXT_PUBLIC_CLIENT_ID)
-
   //* Configure one or more auth providesrs
   providers: [
     SpotifyProvider({
@@ -54,8 +55,8 @@ export default NextAuth({
     //* https://next-auth.js.org/tutorials/refresh-token-rotation
     //* Authentication function, we created the JWT token
     async jwt({ token, account, user }) {
-      console.log(
-        '🚀 ~ file: [...nextauth].js ~ line 54 ~ callbacks ~ jwt ~ token: ',
+      log(
+        '\r\n🚀 ~ file: [...nextauth].js ~ line 54 ~ callbacks ~ jwt ~ token: ',
         token
       );
 
@@ -73,8 +74,8 @@ export default NextAuth({
       //* If your token is still valid
       //* Return previous token if the access token has not expired yet
       if (Date.now() < token.accessTokenExpiress) {
-        console.log(
-          '🚀 EXISTING ACCESS TOKEN IS VALID ~ file: [...nextauth].js ~ line 71 ~ callbacks ~ jwt ~ token.accessTokenExpiress: ',
+        log(
+          '\r\n🚀 EXISTING ACCESS TOKEN IS VALID ~ file: [...nextauth].js ~ line 71 ~ callbacks ~ jwt ~ token.accessTokenExpiress: ',
           token.accessTokenExpiress
         );
 
@@ -82,7 +83,9 @@ export default NextAuth({
       }
 
       //* Access token has expired, so we need to refresh it.
-      console.log('🚀 ACCES TOKEN HAS EXPIRED, REFRESHING... ~ file: [...nextauth].js ~ line 85 ~ callbacks ~ jwt ~ ');
+      log(
+        '\r\n🚀 ACCES TOKEN HAS EXPIRED, REFRESHING... ~ file: [...nextauth].js ~ line 85 ~ callbacks ~ jwt ~ '
+      );
       return await refreshAccessToken(token);
     },
 
