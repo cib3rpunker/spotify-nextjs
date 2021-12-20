@@ -26,7 +26,7 @@ async function refreshAccessToken(token) {
 
     return {
       ...token,
-      error: '💥 refreshAccessToken ERROR',
+      error: 'RefreshAccessTokenError',   //! 💥 ERROR
     };
   }
 }
