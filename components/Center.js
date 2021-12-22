@@ -2,6 +2,10 @@ import { ChevronDownIcon } from '@heroicons/react/outline';
 import { useSession } from 'next-auth/react';
 import { shuffle } from 'lodash';
 import { useEffect, useState } from 'react';
+import { useRecoilState, useRecoilValue } from 'recoil';
+import { playlistIdState, playlistState } from '../atoms/playlistAtom';
+import useSpotify from '../hooks/useSpotify';
+import { time } from '../lib/utils';
 
 const colors = [
   'from-indigo-500',
@@ -15,13 +19,29 @@ const colors = [
 
 function Center() {
   const { data: session } = useSession();
-  const [color, setColor] = useState(null)
+  const spotifyApi = useSpotify();
+  const [color, setColor] = useState(null);
+  //const [playlistId, setPlaylistId] = useRecoilState(playlistIdState);
+  const playlistId = useRecoilValue(playlistIdState);
+  const [playlist, setPlaylist] = useRecoilState(playlistState);
 
   useEffect(() => {
-    // return () => {
-      setColor(shuffle(colors).pop());
-    //}
-  }, [])
+    setColor(shuffle(colors).pop());
+  }, [playlistId]);
+
+  useEffect(() => {
+    spotifyApi
+      .getPlaylist(playlistId)
+      .then((data) => {
+        //console.log(time, "🎹 ~ file: Center.jsx ~ line 36 ~ spotifyApi.getPlaylist ~ data", data);
+        setPlaylist(data.body);
+      })
+      .catch((err) =>
+        console.error( time, '🟥 ~ file: Center.jsx ~ line 36 ~ spotifyApi.getPlaylist ~ err: ', err )
+      );
+  }, [spotifyApi, playlistId]);
+
+  console.log(time, "🎼 ~ file: Center.jsx ~ line 50 ~ Center ~ playlist:", playlist)
 
   return (
     <div className="flex-grow ">
