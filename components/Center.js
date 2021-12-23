@@ -31,6 +31,7 @@ function Center() {
   }, [playlistId]);
 
   useEffect(() => {
+    if (spotifyApi.getAccessToken()) {
       spotifyApi
         .getPlaylist(playlistId)
         .then((data) => {
@@ -40,14 +41,29 @@ function Center() {
         .catch((err) =>
           console.error( time, '🟥 ~ file: Center.js ~ line 36 ~ spotifyApi.getPlaylist ~ err: ', err )
         );
+    }
   }, [spotifyApi, playlistId]);
+
+  //! The below solution alternative solves the ISSUE [No token provided] but keeps throwing the following ERROR:
+  //! client.js?f551:839 GET https://api.spotify.com/v1/playlists/37i9dQZF1DX37bXS7EGI3f 401
+  //   useEffect(() => {
+  //   spotifyApi.getPlaylist(playlistId).then(
+  //     function (data) {
+  //       console.log('Some information about this playlist', data.body);
+  //       setPlaylist(data.body);
+  //     },
+  //     function (err) {
+  //       console.log('Something went wrong!', err);
+  //     }
+  //   );
+  // }, [spotifyApi, playlistId]);
 
   //console.log(time, "🎼 ~ file: Center.jsx ~ line 50 ~ Center ~ playlist:", playlist)
 
   return (
     <div className="flex-grow ">
       <header className="absolute top-5 right-8 ">
-        <div className="flex item-center bg-black space-x-3 opacity-90 hover:opacity-80 cursor-pointer rounded-full p-1 pr-2">
+        <div className="flex item-center bg-black space-x-3 opacity-90 hover:opacity-80 cursor-pointer rounded-full p-1 pr-2 text-white">
           <img
             className="rounded-full w-10 h-10"
             src={session?.user.image}
@@ -60,7 +76,7 @@ function Center() {
       </header>
 
       <section
-        className={`flex items-end space-x-7 bg-gradient-to-b to-black ${color} h-80 text-white padding-8`}
+        className={`flex items-end space-x-7 bg-gradient-to-b to-black ${color} h-80 text-white p-8`}
       >
         <img
           className="h-44 w-44 shadow-2xl"
